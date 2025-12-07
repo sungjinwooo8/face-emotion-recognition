@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+
+# Face image dataset (privacy + size)
+faces_dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large / compiled binaries (safety)
+*.dll
+*.pyd
+
+# Model / binary artifacts (optional, keep if you want)
+*.pkl
+*.pickle
+*.yml
+
+# If your emotion model file is big, you can also ignore it:
+# emotion_model_IIITM.h5
